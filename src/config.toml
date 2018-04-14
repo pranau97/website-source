@@ -16,7 +16,7 @@ rssLimit = 30
     author = "Pranau Kumar"
     description = "Pranau Kumar's blog & website"
     keywords = "blog,personal,pranau,kumar,machine,learning,python,R"
-    info = "Aspiring Data Scientist | University student"
+    info = "University student | Aspiring Data Scientist"
 
 [[params.social]]
     name = "Github"
