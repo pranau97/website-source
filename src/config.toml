@@ -29,6 +29,11 @@ rssLimit = 30
     url = "https://keybase.io/mrfinch"
 
 [[params.social]]
+    name = "Telegram"
+    weight = 3
+    url = "https://telegram.me/mrfinch314"
+
+[[params.social]]
     name = "RSS"
     weight = 3
     url = "/index.xml"
