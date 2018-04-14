@@ -16,8 +16,8 @@ This repository houses the source code for my personal website and blog. It is b
 
 ## Setup
 
-1. Clone the repository
+1. Clone the repository.
 
-2. Change to the `src` directory.
+2. Switch to the `src` directory.
 
 3. Run `hugo server` to launch a dev instance of the website.
