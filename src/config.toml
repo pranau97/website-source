@@ -1,0 +1,51 @@
+baseurl = "//pranaukumar.me/"
+title = "Pranau Kumar's Blog"
+languagecode = "en"
+copyright = "This work is licensed under a Unlicense license. All content is essentially public domain."
+
+paginate = 20
+canonifyurls = true
+enableRobotsTXT = true
+rssLimit = 30
+
+[permalinks]
+    posts = "posts/:slug/"
+    default = ":slug/"
+
+[params]
+    author = "Pranau Kumar"
+    description = "Pranau Kumar's blog & website"
+    keywords = "blog,personal,pranau,kumar,machine,learning,python,R"
+    info = "Aspiring Data Scientist | Civilization addict"
+
+[[params.social]]
+    name = "Github"
+    weight = 1
+    url = "https://github.com/pranau97/"
+
+[[params.social]]
+    name = "Keybase"
+    weight = 2
+    url = "https://keybase.io/mrfinch"
+
+[[params.social]]
+    name = "RSS"
+    weight = 3
+    url = "/index.xml"
+
+[[menu.main]]
+    name = "Blog"
+    weight = 1
+    url  = "/posts/"
+
+[[menu.main]]
+    name = "About"
+    weight = 2
+    url = "/about"
+
+[author]
+    name = "Pranau Kumar"
+    email = "lpranaukumar@gmail.com"
+
+[taxonomies]
+    tag = "tags"

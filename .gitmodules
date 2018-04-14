@@ -1,0 +1,4 @@
+[submodule "src/public"]
+	path = src/public
+	url = https://github.com/pranau97/pranau97.github.io.git
+	branch = master

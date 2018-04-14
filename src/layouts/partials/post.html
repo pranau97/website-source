@@ -1,0 +1,15 @@
+<section class="container post">
+  <article>
+    <header>
+      <h1 class="title">{{ .Title }}</h1>
+      <h2 class="date">{{ .Date.Format "January 2, 2006" }}</h2>
+      {{ if .Params.tags }}
+        <h6>Tags:</h6> {{range .Params.tags}}
+        <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> 
+        {{end}}
+      {{end}}
+    </header>
+
+    {{ .Content }}
+  </article>
+</section>
