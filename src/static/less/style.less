@@ -301,6 +301,25 @@ img {
   }
 }
 
+.circle {
+	line-height: 0;
+	display: inline-block;
+	margin: 5px;
+  border: 2px solid @darker-bg-color;
+	border-radius: 50%;
+	transition: linear 0.25s;
+  height: 200px;
+  width: 200px;
+}
+.circle img {
+	border-radius: 50%;
+}
+.circle:hover {
+	transition: ease-out 0.2s;
+  border: 2px solid @darker-fg-color;
+  -webkit-transition: ease-out 0.2s;
+}
+
 .footer {
   height: 6.0rem;
   width: 100%;
